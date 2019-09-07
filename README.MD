@@ -2,7 +2,7 @@
 Scrapper for common CCA class provided by Canada Revenue Agency (CRA). 
 
 ## Usage
-Clone and require it in the project directory. To get a list of common CCA classes from CRA, use the following code. The list returns common CCA classes in the structure of a CCA class object.
+Clone and require it in your project directory. To get a list of common CCA classes from CRA, use the following code. The list returns common CCA classes in the structure of a CCA class object.
 
 ```js
 var {getCommonCCA} = require('./cca-scraper')
@@ -12,7 +12,7 @@ getCommonCCA().then(CCALst =>
 ```
 
 ## CCA class object
-Structure of CCA class object.
+Example of the structure of CCA class object.
 
 ```
 {
